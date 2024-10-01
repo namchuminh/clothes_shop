@@ -5,12 +5,12 @@
     <div class="container-fluid">
         <div class="row mb-2">
             <div class="col-sm-6">
-                <h1>Quản Lý Topping</h1>
+                <h1>Quản Lý Phụ Kiện</h1>
             </div>
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
                     <li class="breadcrumb-item"><a href="{{ route('admin.dashboard') }}">Trang Chủ</a></li>
-                    <li class="breadcrumb-item"><a href="{{ route('admin.toppings.index') }}">Quản Lý Topping</a></li>
+                    <li class="breadcrumb-item"><a href="{{ route('admin.toppings.index') }}">Quản Lý Phụ Kiện</a></li>
                     <li class="breadcrumb-item active">Cập Nhật Topping</li>
                 </ol>
             </div>

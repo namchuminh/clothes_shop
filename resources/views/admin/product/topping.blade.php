@@ -221,7 +221,7 @@
                             positionClass: 'toast-top-right',
                             timeOut: 5000
                         };
-                        toastr.success('Thêm Topping thành công!', 'Thành Công');
+                        toastr.success('Thêm Phụ Kiện thành công!', 'Thành Công');
                     },
                     error: function(xhr) {
                         if (xhr.status === 401) {
@@ -250,7 +250,7 @@
                                 positionClass: 'toast-top-right',
                                 timeOut: 5000
                             };
-                            toastr.error('Thêm Topping thất bại!', 'Thất Bại');
+                            toastr.error('Thêm Phụ Kiện thất bại!', 'Thất Bại');
                         }
                     }
                 });

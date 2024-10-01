@@ -110,8 +110,8 @@ function fetchData(){
                         <td class="cart-item-price">
                             <ul class="property">
                                 <li class="size-p">Kích Thước: ${item.detail_products.size.name} ${item.detail_products.price.toLocaleString('vi-VN') + 'đ x' + item.quantity} (${Number(item.detail_products.price * item.quantity).toLocaleString('vi-VN')}đ)</li>
-                                <li class="border-p">Màu Sắc: ${item.color == null ? "Không" : item.color.name} = ${item.color.price.toLocaleString('vi-VN') + 'đ x' + item.quantity} (${Number(item.color == null ? 0 : item.color.price * item.quantity).toLocaleString('vi-VN')}đ)</li>
-                                <li class="topping-p">Phụ Kiện: ${item.topping == null ? "Không" : item.topping.name} = ${item.topping.price.toLocaleString('vi-VN') + 'đ x' + item.quantity} (${Number(item.topping == null ? 0 : item.topping.price * item.quantity).toLocaleString('vi-VN')}đ)</li>
+                                <li class="border-p">Màu Sắc: ${item.color == null ? "Không" : item.color.name} = ${item.color == null ? "" : item.color.price.toLocaleString('vi-VN') + 'đ x' + item.quantity} (${Number(item.color == null ? 0 : item.color.price * item.quantity).toLocaleString('vi-VN')}đ)</li>
+                                <li class="topping-p">Phụ Kiện: ${item.topping == null ? "Không" : item.topping.name} = ${item.topping == null ? "" : item.topping.price.toLocaleString('vi-VN') + 'đ x' + item.quantity} (${Number(item.topping == null ? 0 : item.topping.price * item.quantity).toLocaleString('vi-VN')}đ)</li>
                             </ul>
                         </td>
                         <td>

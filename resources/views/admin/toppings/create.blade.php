@@ -1,17 +1,17 @@
 @extends('Admin.layouts.app')
-@section('title', 'Thêm topping Pizza')
+@section('title', 'Thêm Phụ Kiện Pizza')
 @section('content')
 <section class="content-header">
     <div class="container-fluid">
         <div class="row mb-2">
             <div class="col-sm-6">
-                <h1>Quản Lý Topping</h1>
+                <h1>Quản Lý Phụ Kiện</h1>
             </div>
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
                     <li class="breadcrumb-item"><a href="{{ route('admin.dashboard') }}">Trang Chủ</a></li>
-                    <li class="breadcrumb-item"><a href="{{ route('admin.toppings.index') }}">Quản Lý Topping</a></li>
-                    <li class="breadcrumb-item active">Thêm Topping</li>
+                    <li class="breadcrumb-item"><a href="{{ route('admin.toppings.index') }}">Quản Lý Phụ Kiện</a></li>
+                    <li class="breadcrumb-item active">Thêm Phụ Kiện</li>
                 </ol>
             </div>
         </div>
@@ -42,7 +42,7 @@
                         </div>
                     </div>
                     <a class="btn btn-success" href="{{ route('admin.toppings.index') }}">Quay Lại</a>
-                    <button type="submit" class="btn btn-primary">Thêm Topping</button>
+                    <button type="submit" class="btn btn-primary">Thêm Phụ Kiện</button>
                 </form>
             </div>
         </div>
@@ -106,7 +106,7 @@
                                 positionClass: 'toast-top-right',
                                 timeOut: 5000
                             };
-                            toastr.error('Thêm topping thất bại!', 'Thất Bại');
+                            toastr.error('Thêm Phụ Kiện thất bại!', 'Thất Bại');
                         }
                     }
                 });

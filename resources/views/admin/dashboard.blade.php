@@ -64,7 +64,7 @@
                 <div class="small-box bg-danger">
                     <div class="inner">
                         <h3 class="totalProducts"></h3>
-                        <p>Món Ăn Trong Menu</p>
+                        <p>Tổng Số Sản Phẩm</p>
                     </div>
                     <div class="icon">
                         <i class="ion ion-pie-graph"></i>
